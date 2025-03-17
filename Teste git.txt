@@ -1,0 +1,24 @@
+Andreza
+
+1º - criar uma pasta em algum lugar do PC
+2º - Dentro da pasta, botão direito, Open Git bash here
+3º - git init
+4º - verificar se foi inicializado, 
+na pasta colocar modo visualização e habilitar as pastas ocultas.
+Esse arquivo é criado e não deve ser modificado.
+5º - criar um arquivo de texto e escrever algo. Essa é a Versão 1 do código
+6º - na linha de comando digitar git status (mostra os arquivos add e não add no controle de versão)
+7º - git add "[nome do arquivo]" (adiciona o arquivo no controle de versão)
+8º - Criar mais arquivos (Agora tenho vários arquivos que ainda não estão no controle de versao)
+9º - git status (tem varios arquivos ainda não estão)
+10º - git add . (adiciona todos os arquivos ao controle de versão)
+Criar a 1ª versão dos arquivos com commit
+11º - git commit -m "commit inicial" (Boas praticas, como é a 1ªV. coloca-se esse nome)
+Se for a primeira vez que roda o git no computador, é preciso configurar o git. 
+Ele mostra exatamente o que é preciso realizar
+12º - git config --global user.email "andrezacquintas@gmail.com"
+13º - git config --global user.email "Andreza Quintas"
+É realizado essa configuração, pois todas as versões ficam atrelados ao seu nome
+14º - 11º - git commit -m "commit inicial" (roda novamente o comando inicial)
+Agora temos uma nova versão
+15º - 
