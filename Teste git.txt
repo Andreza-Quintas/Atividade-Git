@@ -13,7 +13,7 @@ Esse arquivo é criado e não deve ser modificado.
 9º - git status (tem varios arquivos ainda não estão)
 10º - git add . (adiciona todos os arquivos ao controle de versão)
 Criar a 1ª versão dos arquivos com commit
-11º - git commit -m "commit inicial" (Boas praticas, como é a 1ªV. coloca-se esse nome)
+11º - git commit -m "commit inicial" (Boas praticas, como é a 1ªV. coloca-se esse nome/o m de -m é de mensagem)
 Se for a primeira vez que roda o git no computador, é preciso configurar o git. 
 Ele mostra exatamente o que é preciso realizar
 12º - git config --global user.email "andrezacquintas@gmail.com"
@@ -30,5 +30,30 @@ As demais pode deixar sem marcar.
 Depois clicar em criate repository
 copiar o link do repository
 voltar no git
-17º - git remote add origin <<link do repository>>
+17º - git remote add origin <<link do repository>> (Aqui já definimos para onde será enviado 
+as informações do meu código)
 18º - git push (agora não deu nenhuma mensagem)
+AQui ele não vai funcionar diretamente, pq não definimos para qual branch ele deve enviar;
+branch: Imagine que seja divisões/versoes diferentes do codigo que estão sendo versionadas de forma separada.
+Inicialmente, sempre enviamos para a master.
+19º - git push --set-upstream origin master (Copie o código que ele disponibiliza e cole no terminal de comando)
+Agora ele vai abrir a tela de login do github, pq não fizemos login ainda.
+Ele vai abrir a tela para login, aguarde um pouco e click em Autorizar git-ecosistema e coloque a sua senha 
+Vai abrir uma mensagem que foi adicionado com sucesso.
+Se você for no github, vera que sua branch foi atualizada e aparece seus pacotes dentro da pasta.
+20º - Abrir um dos materiais e modificar e salvar
+21º - git status (verifica se tem algum material novo)
+22º - git add . (envia o material para colocar no github)
+23º - git status (confirma se foi enviado)
+24º - git commit -m "permitir cadastrar usuarios" (envia o conteudo e da um nome relacionado ao que foi adicionado)
+25º - git push (envia a atualização do material para o github)
+verificar no github que foi adicionado um controle de verção
+
+Como ver o historico das versoes do meu codigo
+26º - git reflog (mostras as versoes ate o momento, no topo esta a versao mais atual e em baixo as demais versoes
+
+Como voltar na versão anterior caso cometa algum erro
+27º - git reset --hard <<codigo da versao>>
+para voltar para a versão atual repita os passos 26 e 27
+
+
