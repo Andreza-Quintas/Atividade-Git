@@ -21,4 +21,14 @@ Ele mostra exatamente o que é preciso realizar
 É realizado essa configuração, pois todas as versões ficam atrelados ao seu nome
 14º - 11º - git commit -m "commit inicial" (roda novamente o comando inicial)
 Agora temos uma nova versão
-15º - 
+15º - git push (para enviar o arquivo de versão para a nuvem)
+Mas ele ainda não sabe como enviar e pra onde enviar. Então vamos criar agora
+16º - Dentro do Github criar um novo repositório e dar o nome para ele.
+Observe e deixe o modo publico ou privado.
+Marque a opção de add e README, para que as pessoas possam ter uma instrução de como usar
+As demais pode deixar sem marcar.
+Depois clicar em criate repository
+copiar o link do repository
+voltar no git
+17º - git remote add origin <<link do repository>>
+18º - git push (agora não deu nenhuma mensagem)
